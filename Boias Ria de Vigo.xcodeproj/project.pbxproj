@@ -1,0 +1,694 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04171A802F4CD3B200C326BF /* Boias_Ria_de_VigoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04171A7F2F4CD3B200C326BF /* Boias_Ria_de_VigoApp.swift */; };
+		04171A822F4CD3B200C326BF /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04171A812F4CD3B200C326BF /* Persistence.swift */; };
+		04171A852F4CD3B200C326BF /* Boias_Ria_de_Vigo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 04171A832F4CD3B200C326BF /* Boias_Ria_de_Vigo.xcdatamodeld */; };
+		04171A872F4CD3B200C326BF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04171A862F4CD3B200C326BF /* ContentView.swift */; };
+		04171A892F4CD3B900C326BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04171A882F4CD3B900C326BF /* Assets.xcassets */; };
+		04171A8D2F4CD3B900C326BF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04171A8C2F4CD3B900C326BF /* Preview Assets.xcassets */; };
+		04171A972F4CD3B900C326BF /* Boias_Ria_de_VigoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04171A962F4CD3B900C326BF /* Boias_Ria_de_VigoTests.swift */; };
+		04171AA12F4CD3B900C326BF /* Boias_Ria_de_VigoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04171AA02F4CD3B900C326BF /* Boias_Ria_de_VigoUITests.swift */; };
+		04171AA32F4CD3B900C326BF /* Boias_Ria_de_VigoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04171AA22F4CD3B900C326BF /* Boias_Ria_de_VigoUITestsLaunchTests.swift */; };
+		BB040002000000000000001A /* AddBuoyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB040001000000000000001A /* AddBuoyView.swift */; };
+		BB050002000000000000001A /* BuoyDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB050001000000000000001A /* BuoyDetailView.swift */; };
+		BB060002000000000000001A /* BuoyListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB060001000000000000001A /* BuoyListView.swift */; };
+		BB070002000000000000001A /* BuoyMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB070001000000000000001A /* BuoyMapView.swift */; };
+		BB080002000000000000001A /* RouteSelectorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB080001000000000000001A /* RouteSelectorView.swift */; };
+		BB010002000000000000001A /* Buoy.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB010001000000000000001A /* Buoy.swift */; };
+		BB020002000000000000001A /* Route.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB020001000000000000001A /* Route.swift */; };
+		BB030002000000000000001A /* BuoysViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB030001000000000000001A /* BuoysViewModel.swift */; };
+		BB090002000000000000001A /* CoordinateFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB090001000000000000001A /* CoordinateFormatter.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		04171A932F4CD3B900C326BF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04171A742F4CD3B200C326BF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04171A7B2F4CD3B200C326BF;
+			remoteInfo = "Boias Ria de Vigo";
+		};
+		04171A9D2F4CD3B900C326BF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04171A742F4CD3B200C326BF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04171A7B2F4CD3B200C326BF;
+			remoteInfo = "Boias Ria de Vigo";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04171A7C2F4CD3B200C326BF /* Boias Ria de Vigo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Boias Ria de Vigo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		04171A7F2F4CD3B200C326BF /* Boias_Ria_de_VigoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Boias_Ria_de_VigoApp.swift; sourceTree = "<group>"; };
+		04171A812F4CD3B200C326BF /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		04171A842F4CD3B200C326BF /* Boias_Ria_de_Vigo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Boias_Ria_de_Vigo.xcdatamodel; sourceTree = "<group>"; };
+		04171A862F4CD3B200C326BF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		04171A882F4CD3B900C326BF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		04171A8A2F4CD3B900C326BF /* Boias_Ria_de_Vigo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Boias_Ria_de_Vigo.entitlements; sourceTree = "<group>"; };
+		04171A8C2F4CD3B900C326BF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		04171A922F4CD3B900C326BF /* Boias Ria de VigoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Boias Ria de VigoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		04171A962F4CD3B900C326BF /* Boias_Ria_de_VigoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Boias_Ria_de_VigoTests.swift; sourceTree = "<group>"; };
+		04171A9C2F4CD3B900C326BF /* Boias Ria de VigoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Boias Ria de VigoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		04171AA02F4CD3B900C326BF /* Boias_Ria_de_VigoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Boias_Ria_de_VigoUITests.swift; sourceTree = "<group>"; };
+		04171AA22F4CD3B900C326BF /* Boias_Ria_de_VigoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Boias_Ria_de_VigoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		BB010001000000000000001A /* Buoy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Buoy.swift; sourceTree = "<group>"; };
+		BB020001000000000000001A /* Route.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Route.swift; sourceTree = "<group>"; };
+		BB030001000000000000001A /* BuoysViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuoysViewModel.swift; sourceTree = "<group>"; };
+		BB040001000000000000001A /* AddBuoyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddBuoyView.swift; sourceTree = "<group>"; };
+		BB050001000000000000001A /* BuoyDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuoyDetailView.swift; sourceTree = "<group>"; };
+		BB060001000000000000001A /* BuoyListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuoyListView.swift; sourceTree = "<group>"; };
+		BB070001000000000000001A /* BuoyMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuoyMapView.swift; sourceTree = "<group>"; };
+		BB080001000000000000001A /* RouteSelectorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouteSelectorView.swift; sourceTree = "<group>"; };
+		BB090001000000000000001A /* CoordinateFormatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoordinateFormatter.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04171A792F4CD3B200C326BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04171A8F2F4CD3B900C326BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04171A992F4CD3B900C326BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04171A732F4CD3B200C326BF = {
+			isa = PBXGroup;
+			children = (
+				04171A7E2F4CD3B200C326BF /* Boias Ria de Vigo */,
+				04171A952F4CD3B900C326BF /* Boias Ria de VigoTests */,
+				04171A9F2F4CD3B900C326BF /* Boias Ria de VigoUITests */,
+				04171A7D2F4CD3B200C326BF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		04171A7D2F4CD3B200C326BF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04171A7C2F4CD3B200C326BF /* Boias Ria de Vigo.app */,
+				04171A922F4CD3B900C326BF /* Boias Ria de VigoTests.xctest */,
+				04171A9C2F4CD3B900C326BF /* Boias Ria de VigoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04171A7E2F4CD3B200C326BF /* Boias Ria de Vigo */ = {
+			isa = PBXGroup;
+			children = (
+				04171A7F2F4CD3B200C326BF /* Boias_Ria_de_VigoApp.swift */,
+				04171A862F4CD3B200C326BF /* ContentView.swift */,
+				BB000001000000000000001A /* Models */,
+				BB000002000000000000001A /* ViewModels */,
+				BB000003000000000000001A /* Views */,
+				BB000004000000000000001A /* Utilities */,
+				04171A882F4CD3B900C326BF /* Assets.xcassets */,
+				04171A8A2F4CD3B900C326BF /* Boias_Ria_de_Vigo.entitlements */,
+				04171A8B2F4CD3B900C326BF /* Preview Content */,
+			);
+			path = "Boias Ria de Vigo";
+			sourceTree = "<group>";
+		};
+		BB000001000000000000001A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				BB010001000000000000001A /* Buoy.swift */,
+				BB020001000000000000001A /* Route.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		BB000002000000000000001A /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				BB030001000000000000001A /* BuoysViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		BB000003000000000000001A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				BB040001000000000000001A /* AddBuoyView.swift */,
+				BB050001000000000000001A /* BuoyDetailView.swift */,
+				BB060001000000000000001A /* BuoyListView.swift */,
+				BB070001000000000000001A /* BuoyMapView.swift */,
+				BB080001000000000000001A /* RouteSelectorView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		BB000004000000000000001A /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				BB090001000000000000001A /* CoordinateFormatter.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		04171A8B2F4CD3B900C326BF /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				04171A8C2F4CD3B900C326BF /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		04171A952F4CD3B900C326BF /* Boias Ria de VigoTests */ = {
+			isa = PBXGroup;
+			children = (
+				04171A962F4CD3B900C326BF /* Boias_Ria_de_VigoTests.swift */,
+			);
+			path = "Boias Ria de VigoTests";
+			sourceTree = "<group>";
+		};
+		04171A9F2F4CD3B900C326BF /* Boias Ria de VigoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				04171AA02F4CD3B900C326BF /* Boias_Ria_de_VigoUITests.swift */,
+				04171AA22F4CD3B900C326BF /* Boias_Ria_de_VigoUITestsLaunchTests.swift */,
+			);
+			path = "Boias Ria de VigoUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04171A7B2F4CD3B200C326BF /* Boias Ria de Vigo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04171AA62F4CD3B900C326BF /* Build configuration list for PBXNativeTarget "Boias Ria de Vigo" */;
+			buildPhases = (
+				04171A782F4CD3B200C326BF /* Sources */,
+				04171A792F4CD3B200C326BF /* Frameworks */,
+				04171A7A2F4CD3B200C326BF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Boias Ria de Vigo";
+			productName = "Boias Ria de Vigo";
+			productReference = 04171A7C2F4CD3B200C326BF /* Boias Ria de Vigo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		04171A912F4CD3B900C326BF /* Boias Ria de VigoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04171AA92F4CD3B900C326BF /* Build configuration list for PBXNativeTarget "Boias Ria de VigoTests" */;
+			buildPhases = (
+				04171A8E2F4CD3B900C326BF /* Sources */,
+				04171A8F2F4CD3B900C326BF /* Frameworks */,
+				04171A902F4CD3B900C326BF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04171A942F4CD3B900C326BF /* PBXTargetDependency */,
+			);
+			name = "Boias Ria de VigoTests";
+			productName = "Boias Ria de VigoTests";
+			productReference = 04171A922F4CD3B900C326BF /* Boias Ria de VigoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		04171A9B2F4CD3B900C326BF /* Boias Ria de VigoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04171AAC2F4CD3B900C326BF /* Build configuration list for PBXNativeTarget "Boias Ria de VigoUITests" */;
+			buildPhases = (
+				04171A982F4CD3B900C326BF /* Sources */,
+				04171A992F4CD3B900C326BF /* Frameworks */,
+				04171A9A2F4CD3B900C326BF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04171A9E2F4CD3B900C326BF /* PBXTargetDependency */,
+			);
+			name = "Boias Ria de VigoUITests";
+			productName = "Boias Ria de VigoUITests";
+			productReference = 04171A9C2F4CD3B900C326BF /* Boias Ria de VigoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04171A742F4CD3B200C326BF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					04171A7B2F4CD3B200C326BF = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					04171A912F4CD3B900C326BF = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 04171A7B2F4CD3B200C326BF;
+					};
+					04171A9B2F4CD3B900C326BF = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 04171A7B2F4CD3B200C326BF;
+					};
+				};
+			};
+			buildConfigurationList = 04171A772F4CD3B200C326BF /* Build configuration list for PBXProject "Boias Ria de Vigo" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 04171A732F4CD3B200C326BF;
+			productRefGroup = 04171A7D2F4CD3B200C326BF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04171A7B2F4CD3B200C326BF /* Boias Ria de Vigo */,
+				04171A912F4CD3B900C326BF /* Boias Ria de VigoTests */,
+				04171A9B2F4CD3B900C326BF /* Boias Ria de VigoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04171A7A2F4CD3B200C326BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04171A8D2F4CD3B900C326BF /* Preview Assets.xcassets in Resources */,
+				04171A892F4CD3B900C326BF /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04171A902F4CD3B900C326BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04171A9A2F4CD3B900C326BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04171A782F4CD3B200C326BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04171A802F4CD3B200C326BF /* Boias_Ria_de_VigoApp.swift in Sources */,
+				04171A872F4CD3B200C326BF /* ContentView.swift in Sources */,
+				BB010002000000000000001A /* Buoy.swift in Sources */,
+				BB020002000000000000001A /* Route.swift in Sources */,
+				BB030002000000000000001A /* BuoysViewModel.swift in Sources */,
+				BB040002000000000000001A /* AddBuoyView.swift in Sources */,
+				BB050002000000000000001A /* BuoyDetailView.swift in Sources */,
+				BB060002000000000000001A /* BuoyListView.swift in Sources */,
+				BB070002000000000000001A /* BuoyMapView.swift in Sources */,
+				BB080002000000000000001A /* RouteSelectorView.swift in Sources */,
+				BB090002000000000000001A /* CoordinateFormatter.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04171A8E2F4CD3B900C326BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04171A972F4CD3B900C326BF /* Boias_Ria_de_VigoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04171A982F4CD3B900C326BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04171AA32F4CD3B900C326BF /* Boias_Ria_de_VigoUITestsLaunchTests.swift in Sources */,
+				04171AA12F4CD3B900C326BF /* Boias_Ria_de_VigoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		04171A942F4CD3B900C326BF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04171A7B2F4CD3B200C326BF /* Boias Ria de Vigo */;
+			targetProxy = 04171A932F4CD3B900C326BF /* PBXContainerItemProxy */;
+		};
+		04171A9E2F4CD3B900C326BF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04171A7B2F4CD3B200C326BF /* Boias Ria de Vigo */;
+			targetProxy = 04171A9D2F4CD3B900C326BF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		04171AA42F4CD3B900C326BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		04171AA52F4CD3B900C326BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		04171AA72F4CD3B900C326BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Boias Ria de Vigo/Boias_Ria_de_Vigo.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Boias Ria de Vigo/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "xani.Boias-Ria-de-Vigo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		04171AA82F4CD3B900C326BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Boias Ria de Vigo/Boias_Ria_de_Vigo.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Boias Ria de Vigo/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "xani.Boias-Ria-de-Vigo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		04171AAA2F4CD3B900C326BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "xani.Boias-Ria-de-VigoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Boias Ria de Vigo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Boias Ria de Vigo";
+			};
+			name = Debug;
+		};
+		04171AAB2F4CD3B900C326BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "xani.Boias-Ria-de-VigoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Boias Ria de Vigo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Boias Ria de Vigo";
+			};
+			name = Release;
+		};
+		04171AAD2F4CD3B900C326BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "xani.Boias-Ria-de-VigoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Boias Ria de Vigo";
+			};
+			name = Debug;
+		};
+		04171AAE2F4CD3B900C326BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "xani.Boias-Ria-de-VigoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Boias Ria de Vigo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04171A772F4CD3B200C326BF /* Build configuration list for PBXProject "Boias Ria de Vigo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04171AA42F4CD3B900C326BF /* Debug */,
+				04171AA52F4CD3B900C326BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04171AA62F4CD3B900C326BF /* Build configuration list for PBXNativeTarget "Boias Ria de Vigo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04171AA72F4CD3B900C326BF /* Debug */,
+				04171AA82F4CD3B900C326BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04171AA92F4CD3B900C326BF /* Build configuration list for PBXNativeTarget "Boias Ria de VigoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04171AAA2F4CD3B900C326BF /* Debug */,
+				04171AAB2F4CD3B900C326BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04171AAC2F4CD3B900C326BF /* Build configuration list for PBXNativeTarget "Boias Ria de VigoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04171AAD2F4CD3B900C326BF /* Debug */,
+				04171AAE2F4CD3B900C326BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		04171A832F4CD3B200C326BF /* Boias_Ria_de_Vigo.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				04171A842F4CD3B200C326BF /* Boias_Ria_de_Vigo.xcdatamodel */,
+			);
+			currentVersion = 04171A842F4CD3B200C326BF /* Boias_Ria_de_Vigo.xcdatamodel */;
+			path = Boias_Ria_de_Vigo.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 04171A742F4CD3B200C326BF /* Project object */;
+}
